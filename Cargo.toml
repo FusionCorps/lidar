@@ -1,0 +1,17 @@
+[package]
+name = "lidar"
+version = "0.1.0"
+authors = ["Winston Hartnett <winstonhartnett@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rplidar_drv = "0.6.0"
+serialport = "3.3.0"
+log = "0.4.8"
+pretty_env_logger = "0.3.1"
+arrayfire = "3.6.2"
+chrono = "0.4.10"
+toml = "0.5.5"
+serde = "1.0.104"
